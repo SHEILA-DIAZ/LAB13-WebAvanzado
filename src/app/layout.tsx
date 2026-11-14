@@ -3,7 +3,7 @@ import "./globals.css";
 import Provider from "@/components/SessionProvider";
 
 export const metadata: Metadata = {
-  title: "LAB13 · Autenticación con Google",
+  title: "LAB13 | Acceso seguro",
   description: "Autenticación y seguridad con Next.js y NextAuth.js",
 };
 

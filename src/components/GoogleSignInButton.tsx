@@ -8,7 +8,7 @@ export default function GoogleSignInButton({ configured }: { configured: boolean
   const [pending, setPending] = useState(false);
   const [error, setError] = useState(false);
   return <>
-    <button className="button-primary w-full" disabled={!configured || pending} onClick={async () => {
+    <button type="button" className="button-primary w-full" disabled={!configured || pending} onClick={async () => {
       setPending(true);
       setError(false);
       try { await signIn("google", { callbackUrl: "/dashboard" }); }

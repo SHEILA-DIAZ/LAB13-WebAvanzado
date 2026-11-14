@@ -42,3 +42,8 @@ next-env.d.ts
 .env.local
 
 !.env.example
+
+# Cuentas locales y evidencias
+/data/
+/evidencias-lab13/
+/evidencias-tarea/

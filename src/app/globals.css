@@ -1,4 +1,4 @@
-﻿@import "tailwindcss";
+@import "tailwindcss";
 
 :root { --background: #f5f7fc; --foreground: #172033; }
 @theme inline {
@@ -14,3 +14,8 @@ body { background: var(--background); color: var(--foreground); font-family: Ari
   .button-secondary { @apply inline-flex items-center justify-center rounded-xl border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-700 transition hover:bg-slate-100 disabled:cursor-wait disabled:opacity-50; }
 }
 :focus-visible { outline: 3px solid #6366f1; outline-offset: 4px; }
+
+@layer components {
+  .field-label { @apply mb-2 block text-sm font-semibold text-slate-700; }
+  .field { @apply w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-slate-900; }
+}

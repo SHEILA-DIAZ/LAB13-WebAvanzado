@@ -14,6 +14,9 @@ const eslintConfig = [
   {
     ignores: [
       "node_modules/**",
+      "evidencias-lab13/**",
+      "evidencias-tarea/**",
+      "data/**",
       ".next/**",
       "out/**",
       "build/**",
